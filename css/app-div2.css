@@ -1,0 +1,82 @@
+/*The divs*/
+#div1, #div2, #div3 {
+    position: absolute;
+    width: 100%;
+}
+
+#div1 {
+    top: 0%;
+    height: 106%;
+}
+
+#div3 {
+    top: 195%;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+#div2 {
+    top: 100%;    
+    height: 100vh;
+}
+
+#div2 .expanded {
+    height: 100%;
+}
+
+
+
+#mid-div {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color:#fff;
+    
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px #000;
+    text-align: center;
+    z-index: 1
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    #mid-div {
+        width: 100%;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #mid-div {
+        width: 100%;
+    }
+}
+
+
+#left-div, #right-div {
+    position: relative;
+    height: 100%;
+    padding: 0;
+
+}
+
+#div2-top-left, #div2-bottom-left, #div2-top-right, #div2-bottom-right {
+    height: 50%;
+    text-align: center;
+    color: #555;
+
+    position: relative;
+}
+
+#div2-top-left h5 {
+    width: 140px;
+    font-size: 2.3rem;
+    color:#B05AAF;
+}
+
+#div2-bottom-right p{
+    width: 80%;
+
+
+}

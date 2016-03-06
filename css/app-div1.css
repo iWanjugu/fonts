@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+/*******   General styling    ******/
+
+section{
+    position: relative;
+}
+
+/*******   header   *******/
+header{
+    height: 60px;
+    width: 100%;
+    z-index: 10000;
+
+    border-bottom: .5px solid #fff;
+
+}
+
+.bar::before, .bar::after {
+    content: ' ';
+    display: table;
+}
+.bar::after{
+    clear: both;
+}
+.bar-left {
+	float: left;
+}
+.bar-right {
+	float: right;
+}
+.bar{
+    padding: 1rem;
+    display: block;
+    height: inherit;
+}
+
+.bar-right {
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: baseline;
+}
+
+.bar-right div {
+    height: 100%;
+    padding: 8px 9px;
+    margin-right: 5px;
+    font-family: Raleway-Regular;
+
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px #000;
+}
+
+.bar-right div:hover {
+    color: #fff;
+    border: 2px solid coral;
+    box-shadow: 0 0 .5px #000;
+    transition: all .2s ease;
+}
+
+.bar-right div:selected {
+    color: coral;
+    border: 1px solid coral;
+}
+
+/*-----------------------------------------------------*/
+/********    First div  ******/
+.green {color: #42bd41;}
+.red{color: red;}
+
+#div1 {
+    background: url(/assets/dishi-images/land-image.jpg);
+    background-size: cover;
+    position: relative;
+/*	height: 100vh;*/
+    height: 110%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#div1-content {
+    height: calc(100% - 70px);
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+#col1, #col2, #col3 {
+    height: 100%;
+}
+
+/*---------------------------*/
+/*#col1*/
+.over {
+    width: 100% !important;
+    height: 100%;
+/*    background-color: rgba(255,255,255, 0.2);*/
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content {
+    height: auto;
+    width: 100% !important;
+    color: aliceblue;
+
+/*    border: 1px solid #fff;*/
+/*    box-shadow: 0 0 2px #000;*/
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+
+    /* centering */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+.content p{
+    color: #fff;
+}
+
+/*----------------------*/
+/*The logo*/
+
+.dishi-logo-text h2 {
+    font-family: DirectDuGauche;
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-bottom: 30px
+
+}
+
+.fork {
+    width: 80%;
+    display: inline-flex;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fork div {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fork-left, .fork-right {
+/*    text-align: center;*/
+    width: 30%;
+}
+
+.dishi-logo-icon {
+    width: auto;
+    height: 70px;
+}
+
+/*----------------------*/
+/*The slogan*/
+
+.slogan {
+    width: 100%;
+    margin: 40px 0px 50px 0px;
+    font-size: 2.8rem;
+    font-family: Raleway-ExtraLight;
+    letter-spacing: 1px;
+}
+
+.slogan span {
+/*
+    font-family: DitaSweet;
+    font-family: Raleway-Regular-Italic;
+*/
+}
+
+/*--------------------------------------------*/
+/*The Colourful text*/
+
+.colourful {
+    display:inline-flex;
+    align-items:center;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+}
+
+.colourful p, .colourful span{
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
+/*    font-weight: bold;*/
+
+}
+
+.colourful p {
+    line-height: 1rem;
+    font-size: 3rem;
+    margin-top: -1.7rem;
+
+}
+
+.sp {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+/*----------------------*/
+/*The Button*/
+
+.btn {
+    height: 40px;
+    margin-top: 85px;
+}
+
+.btn >a{
+    /*#E87A4A*/
+    color:#fff;
+    transition: all .2s ease;
+    border: 1px solid #fff;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+
+    font-family: DaxMedium;
+    font-size: 1.5rem;
+}
+
+.btn>a:hover{
+    border: 1px solid coral;
+    box-shadow: 0;
+}
+
+
+/*---------------------------*/
+/*#col3*/
+/*Social icons*/
+.social-icons {
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+}
+
+.social-icons div {
+    height: 70px;
+}
+
+
+.social-icons div img {
+    width: 45px;
+}
+
+
+
