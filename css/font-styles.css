@@ -1,17 +1,22 @@
 #whole {
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 
-#container {
+.containers {
     position: relative;
-    height: 100vh;       
+    height: auto;
+    background-color:aliceblue;
+    color: #000;
+    width: 800px;
 }
 
 .font-container {
-    width: 700px;
+    width: 650px;
     padding: 20px;
     margin: 10px;
+    position: relative;
 }
 
 .font-container p{
@@ -22,7 +27,6 @@
 .medium-title {}
 .small-title {}
 
-/*Slimjoe*/
-.slimjoe .content {
-    text-transform:lowercase;
+upper-case {
+    text-transform: capitalize;
 }

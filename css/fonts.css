@@ -17,13 +17,72 @@
 .large2 {font-size: 4rem;}
 
 /*----------------------------------------------------------------*/
-/*-----STYLED-----*/
+/*-----HEADING-----*/
+/*----------------------------------------------------------------*/
+
+@font-face {
+    font-family: Anders;
+    src: url(../font/Heading/Anders.ttf);
+}
+.anders {font-family: Anders;}
+
+
+@font-face {
+    font-family: Ribbon;
+    src: url(../font/Heading/Ribbon.otf);
+}
+.ribbon {font-family: Ribbon;}
+
+@font-face {
+    font-family: Metropolis;
+    src: url(../font/Heading/Metropolis.otf);
+}
+.metropolis {font-family: Metropolis;}
+
+@font-face {
+    font-family: BigJohn;
+    src: url(../font/Heading/BIGJOHN.otf);
+}
+.bigjohn {font-family: BigJohn;}
+
+
 @font-face {
     font-family: SlimJoe;
-    src: url(../font/Simple/SlimJoe.otf);
+    src: url(../font/Heading/SlimJoe.otf);
 }
 .slimjoe {font-family: SlimJoe;}
 
+/*----------------------------------------------------------------*/
+/*-----BRUSH-----*/
+/*----------------------------------------------------------------*/
+@font-face {
+    font-family: bakery;
+    src: url(../font/Brush/bakery/bakery.otf);
+}
+.bakery {font-family: bakery;}
+
+@font-face {
+    font-family: DirectDuGauche;
+    src: url(../font/Brush/DirectDuGauche/Direct-du-Gauche.ttf);
+}
+.du_gauche{font-family: DirectDuGauche;}
+
+@font-face {
+    font-family: GraphicCat;
+    src: url(../font/Brush/graphic_cat/GraphicCAT.ttf);
+}
+.graphic_cat{ font-family: GraphicCat;}
+
+@font-face {
+    font-family: GraphicCat;
+    src: url(../font/Brush/surfing_capital/SurfingCapital.ttf);
+}
+.SurfingCapital {font-family: GraphicCat;}
+
+
+
+/*----------------------------------------------------------------*/
+/*-----SPECIAL-----*/
 @font-face {
     font-family: Chardons;
     src: url(../font/Chardons/Chardons.ttf);
@@ -36,11 +95,6 @@
 }
 .mosk{font-family: Mosk;}
 
-@font-face {
-    font-family: DirectDuGauche;
-    src: url(../font/DirectDuGauche/Direct-du-Gauche.ttf);
-}
-.du_gauche{font-family: DirectDuGauche;}
 
 @font-face {
     font-family: DitaSweet;
@@ -50,59 +104,100 @@
 
 
 /*----------------------------------------------------------------*/
-/*-----Normal-----*/
+/*-----SIMPLE-----*/
 
 /*Raleway*/
 @font-face {
     font-family: Raleway-Regular;
-    src: url(../font/raleway/Raleway-Regular.otf);
+    src: url(../font/Simple/raleway/Raleway-Regular.ttf);
 }
+.raleway {font-family: Raleway-Regular;}
 
 @font-face {
     font-family: Raleway-Light;
-    src: url(../font/raleway/Raleway-Light.otf);
+    src: url(../font/Simple/raleway/Raleway-Light.ttf);
 }
 
 
 @font-face {
     font-family: Raleway-ExtraLight;
-    src: url(../font/raleway/Raleway-ExtraLight.otf);
+    src: url(../font/Simple/raleway/Raleway-ExtraLight.ttf);
 }
 
 @font-face {
     font-family: Raleway-SemiBold;
-    src: url(../font/raleway/Raleway-SemiBold.otf);
+    src: url(../font/Simple/raleway/Raleway-SemiBold.ttf);
 }
 
 @font-face {
     font-family: Raleway-SemiBold-Italic;
-    src: url(../font/raleway/Raleway-SemiBold-Italic.otf);
+    src: url(../font/Simple/raleway/Raleway-SemiBold-Italic.ttf);
 }
 
 
 @font-face {
     font-family: Raleway-Bold;
-    src: url(../font/raleway/Raleway-Bold.otf);
+    src: url(../font/Simple/raleway/Raleway-Bold.ttf);
 }
 
 @font-face {
     font-family: Raleway-Regular-Italic;
-    src: url(../font/raleway/Raleway-Regular-Italic.otf);
+    src: url(../font/Simple/raleway/Raleway-Regular-Italic.ttf);
 }
 
 
 /*DAX*/
 @font-face {
     font-family: DaxBold;
-    src: url(../font/Dax/DaxBold.ttf);
+    src: url(../font/Simple/Dax/DaxBold.ttf);
 }
 
 @font-face {
     font-family: DaxMedium;
-    src: url(../font/Dax/DaxMedium.ttf);
+    src: url(../font/Simple/Dax/DaxMedium.ttf);
 }
 
 @font-face {
     font-family: DaxRegular;
-    src: url(../font/Dax/DaxRegular.ttf);
+    src: url(../font/Simple/Dax/DaxRegular.ttf);
 }
+.dax {font-family: DaxRegular;}
+
+
+/*MON*/
+
+@font-face {
+    font-family: MonRegular;
+    src: url(../font/Simple/Mon/Montserrat-Regular.otf);
+}
+.mon {font-family: MonRegular;}
+
+/*Panto*/
+@font-face {
+    font-family:Panton-LightCaps;
+    src: url(../font/Simple/panto/Panton-LightCaps.otf);
+}
+
+.panto {font-family:Panton-LightCaps;}
+
+/*Roboto*/
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Simple/roboto/Roboto-Regular.ttf);
+}
+.roboto {font-family: Roboto-Regular;}
+
+
+/*Valencia*/
+@font-face {
+    font-family: valencia-sans;
+    src: url(../font/Simple/valencia/valencia-sans.otf);
+}
+.valencia{font-family: valencia-sans;}
+
+/*Josefin-Slab*/
+@font-face {
+    font-family: JosefinSlab;
+    src: url(../font/Simple/Josefin-slab/JosefinSlab-Regular.ttf);
+}
+.josefin {font-family: JosefinSlab;}
