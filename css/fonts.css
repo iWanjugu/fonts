@@ -1,31 +1,52 @@
+/*----------------------------------------------------------------*/
+/*Font sizes*/
+.tiny1 {font-size: 0.6rem;}
+.tiny2 {font-size: 0.7rem;}
+.tiny3 {font-size: 0.8rem;}
+.tiny4 {font-size: 0.9rem;}
+.small1 {font-size: 1.2rem;}
+.small2 {font-size: 1.4rem;}
+.small3 {font-size: 1.6rem;}
+.small4 {font-size: 1.8rem;}
+.medium1 {font-size: 2rem;}
+.medium1 {font-size: 2.4rem;}
+.medium1 {font-size: 2.6rem;}
+.medium1 {font-size: 2.8rem;}
+.large1 {font-size: 3rem;}
+.large2 {font-size: 3.5rem;}
+.large2 {font-size: 4rem;}
 
 /*----------------------------------------------------------------*/
 /*-----STYLED-----*/
 @font-face {
     font-family: SlimJoe;
-    src: url(../font/SlimJoe.otf);
+    src: url(../font/Simple/SlimJoe.otf);
 }
+.slimjoe {font-family: SlimJoe;}
 
 @font-face {
     font-family: Chardons;
     src: url(../font/Chardons/Chardons.ttf);
 }
-
+.chardons {font-family: Chardons;}
 
 @font-face {
     font-family: Mosk;
     src: url(../font/Mosk/MoskNormal400.ttf);
 }
+.mosk{font-family: Mosk;}
 
 @font-face {
     font-family: DirectDuGauche;
     src: url(../font/DirectDuGauche/Direct-du-Gauche.ttf);
 }
+.du_gauche{font-family: DirectDuGauche;}
 
 @font-face {
     font-family: DitaSweet;
     src: url(../font/DitaSweet/Dita-Sweet.ttf);
 }
+.dita_sweet {font-family: DitaSweet;}
 
 
 /*----------------------------------------------------------------*/
