@@ -83,28 +83,47 @@
 
 /*----------------------------------------------------------------*/
 /*-----SPECIAL-----*/
+/*----------------------------------------------------------------*/
 @font-face {
     font-family: Chardons;
-    src: url(../font/Chardons/Chardons.ttf);
+    src: url(../font/Special/Chardons/Chardons.ttf);
 }
 .chardons {font-family: Chardons;}
 
 @font-face {
     font-family: Mosk;
-    src: url(../font/Mosk/MoskNormal400.ttf);
+    src: url(../font/Special/Mosk/MoskNormal400.ttf);
 }
 .mosk{font-family: Mosk;}
 
 
 @font-face {
     font-family: DitaSweet;
-    src: url(../font/DitaSweet/Dita-Sweet.ttf);
+    src: url(../font/Special/DitaSweet/Dita-Sweet.otf);
 }
 .dita_sweet {font-family: DitaSweet;}
 
+@font-face {
+    font-family: Hack;
+    src: url(../font/Special/Hack/Hack-Regular.ttf);
+}
+.hack {font-family: Hack;}
+
+@font-face {
+    font-family: MadRats;
+    src: url(../font/Special/MadRats/MadRats.ttf);
+}
+.madrats { font-family: MadRats;}
+
+@font-face {
+    font-family: Citizens;
+    src: url(../font/Special/TheCitizens/theCitizens.ttf);
+}
+.citizens {font-family: Citizens;}
 
 /*----------------------------------------------------------------*/
 /*-----SIMPLE-----*/
+/*----------------------------------------------------------------*/
 
 /*Raleway*/
 @font-face {
